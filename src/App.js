@@ -21,7 +21,8 @@ function App() {
         {/* Wrap Routes inside Routes component */}
         <Routes>
           {/* Route for Home.js contents */}
-          <Route path="/" element={<Home />} />
+          <Route path="/ganeshnyaupane" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           
           {/* Route for About.js contents */}
           <Route path="/about" element={<About />} />
