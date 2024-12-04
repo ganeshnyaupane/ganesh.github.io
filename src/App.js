@@ -16,7 +16,7 @@ import Projects from './contents/Projects';
 
 function App() {
   return (
-    <Router basename="/ganeshnyaupane">
+    <Router basename="/portfolio">
       <div className="App">
         <Navbar />
         {/* Wrap Routes inside Routes component */}
