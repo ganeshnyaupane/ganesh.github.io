@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Navigate,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
@@ -15,13 +16,15 @@ import Projects from './contents/Projects';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ganeshnyaupane">
       <div className="App">
         <Navbar />
         {/* Wrap Routes inside Routes component */}
         <Routes>
+          {/* Route for base url */}           
+          <Route path="/" element={<Navigate to="/home" />} />
+          
           {/* Route for Home.js contents */}
-          <Route path="/ganeshnyaupane" element={<Home />} />
           <Route path="/home" element={<Home />} />
           
           {/* Route for About.js contents */}

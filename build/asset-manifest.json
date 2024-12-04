@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ganeshnyaupane/static/css/main.e8ca9cea.css",
-    "main.js": "/ganeshnyaupane/static/js/main.93002911.js",
+    "main.js": "/ganeshnyaupane/static/js/main.641bf212.js",
     "static/media/GaneshResume.pdf": "/ganeshnyaupane/static/media/GaneshResume.fa121e265e9848b0648d.pdf",
     "static/media/ganesh.png": "/ganeshnyaupane/static/media/ganesh.1b85b6a5d9bf9bf8af61.png",
     "index.html": "/ganeshnyaupane/index.html",
     "main.e8ca9cea.css.map": "/ganeshnyaupane/static/css/main.e8ca9cea.css.map",
-    "main.93002911.js.map": "/ganeshnyaupane/static/js/main.93002911.js.map"
+    "main.641bf212.js.map": "/ganeshnyaupane/static/js/main.641bf212.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ca9cea.css",
-    "static/js/main.93002911.js"
+    "static/js/main.641bf212.js"
   ]
 }
