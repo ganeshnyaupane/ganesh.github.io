@@ -14,6 +14,7 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Projects from './contents/Projects';
 import Startups from './contents/Startups';
+import Experience from './contents/Experience';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           
           {/* Route for Education.js contents */}
           <Route path="/education" element={<Education />} />
+
+          {/* Route for Education.js contents */}
+          <Route path="/experience" element={<Experience />} />
           
           <Route path="/skills" element={<Skills />} />
           

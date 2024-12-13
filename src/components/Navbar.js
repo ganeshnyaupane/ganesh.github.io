@@ -24,6 +24,7 @@ return (
 <Navitem item="Home" tolink="/home"  activec={this.activeitem}></Navitem>
 <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
 <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
+<Navitem item="Experience" tolink="/experience"  activec={this.activeitem}></Navitem>
 <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
 <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
 <Navitem item="Startups" tolink="/startups"  activec={this.activeitem}></Navitem>
