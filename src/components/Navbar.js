@@ -26,6 +26,7 @@ return (
 <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
 <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
 <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
+<Navitem item="Startups" tolink="/startups"  activec={this.activeitem}></Navitem>
 <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
 </ul>
 </nav>

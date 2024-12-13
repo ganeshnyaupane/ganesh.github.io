@@ -7,7 +7,7 @@ render() {
 return (
 <div className="condiv home">
 <img src={profilepic} className="profilepic"></img>
-<ReactTypingEffect className="typingeffect" text={['I am Ganesh Nyaupane','I am a web developer']} speed={100} eraseDelay={700}/>
+<ReactTypingEffect className="typingeffect" text={['I am Ganesh Nyaupane','I am a Software Development Engineer']} speed={100} eraseDelay={700}/>
 
 <Social/>
 </div>
